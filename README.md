@@ -84,19 +84,19 @@ snapDetail: On Punts, whether the snap was on target and if not, provides detail
 operationTime: Timing from snap to kick on punt plays in seconds: (numeric)
 hangTime: Hangtime of player's punt or kickoff attempt in seconds. Timing is taken from impact with foot to impact with the ground or a player. (numeric)
 kickType: Kickoff or Punt Type (text).
-Possible values for kickoff plays:
-D: Deep - your normal deep kick with decent hang time
-F: Flat - different than a Squib in that it will have some hang time and no roll but has a lower trajectory and hang time than a Deep kick off
-K: Free Kick - Kick after a safety
-O: Obvious Onside - score and situation dictates the need to regain possession. Also the hands team is on for the returning team
-P: Pooch kick - high for hangtime but not a lot of distance - usually targeting an upman
-Q: Squib - low-line drive kick that bounces or rolls considerably, with virtually no hang time
-S: Surprise Onside - accounting for score and situation an onsides kick that the returning team doesn’t expect. Hands teams probably aren't on the field
-B: Deep Direct OOB - Kickoff that is aimed deep (regular kickoff) that goes OOB directly (doesn't bounce)
-Possible values for punt plays:
-N: Normal - standard punt style
-R: Rugby style punt
-A: Nose down or Aussie-style punts
+    Possible values for kickoff plays:
+        D: Deep - your normal deep kick with decent hang time
+        F: Flat - different than a Squib in that it will have some hang time and no roll but has a lower trajectory and hang time than a Deep kick off
+        K: Free Kick - Kick after a safety
+        O: Obvious Onside - score and situation dictates the need to regain possession. Also the hands team is on for the returning team
+        P: Pooch kick - high for hangtime but not a lot of distance - usually targeting an upman
+        Q: Squib - low-line drive kick that bounces or rolls considerably, with virtually no hang time
+        S: Surprise Onside - accounting for score and situation an onsides kick that the returning team doesn’t expect. Hands teams probably aren't on the field
+        B: Deep Direct OOB - Kickoff that is aimed deep (regular kickoff) that goes OOB directly (doesn't bounce)
+    Possible values for punt plays:
+        N: Normal - standard punt style
+        R: Rugby style punt
+        A: Nose down or Aussie-style punts
 kickDirectionIntended: Intended kick direction from the kicking team's perspective - based on how coverage unit sets up and other factors (L: Left, R: Right, C: Center, text).
 kickDirectionActual: Actual kick direction from the kicking team's perspective (L: Left, R: Right, C: Center, text).
 returnDirectionIntended: The return direction the punt return or kick off return unit is set up for from the return team's perspective (L: Left, R: Right, C: Center, text).
@@ -110,21 +110,21 @@ puntRushers: Jersey number and team code of player(s) on the punt return unit wi
 specialTeamsSafeties: Jersey number and team code for player(s) with "Safety" roles on kickoff coverage and field goal/extra point block units - and those not actively advancing towards the line of scrimmage on the punt return unit. Multiple special teams safeties on a play are separated by a ; (text).
 vises: Jersey number and team code for player(s) with a "Vise" role on the punt return unit. Multiple vises on a play are separated by a ; (text).
 kickContactType: Detail on how a punt was fielded, or what happened when it wasn't fielded (text).
-Possible values:
-BB: Bounced Backwards
-BC: Bobbled Catch from Air
-BF: Bounced Forwards
-BOG: Bobbled on Ground
-CC: Clean Catch from Air
-CFFG: Clean Field From Ground
-DEZ: Direct to Endzone
-ICC: Incidental Coverage Team Contact
-KTB: Kick Team Knocked Back
-KTC: Kick Team Catch
-KTF: Kick Team Knocked Forward
-MBC: Muffed by Contact with Non-Designated Returner
-MBDR: Muffed by Designated Returner
-OOB: Directly Out Of Bounds
+    Possible values:
+        BB: Bounced Backwards
+        BC: Bobbled Catch from Air
+        BF: Bounced Forwards
+        BOG: Bobbled on Ground
+        CC: Clean Catch from Air
+        CFFG: Clean Field From Ground
+        DEZ: Direct to Endzone
+        ICC: Incidental Coverage Team Contact
+        KTB: Kick Team Knocked Back
+        KTC: Kick Team Catch
+        KTF: Kick Team Knocked Forward
+        MBC: Muffed by Contact with Non-Designated Returner
+        MBDR: Muffed by Designated Returner
+        OOB: Directly Out Of Bounds
 
 ## Summary of Findings
 
