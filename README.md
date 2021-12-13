@@ -130,6 +130,46 @@ kickContactType: Detail on how a punt was fielded, or what happened when it wasn
 
 > Summarize all of your findings from your exploration here, whether you plan on bringing them into your explanatory presentation or not.
 
+We can see from the data that there are 4 types of Special team plays: Kickoff, Punt, Field Goal, Extra Point. We will be more interested on just the punt data in this review so we can reduce the infomation down to just play types that are Punt.
+
+After reducing the data to just punting data we can take look at the what type of reuslts there are in a punt play.  Since we are intersted in successful punts, we need to look at what makes a punt returnable.  A returnable ball would allow the opposing team a chance to move the ball closer to scoring position.  A **fair Catch**  is when the returner signals he will catch bu twill not be able to move the ball forward towards the scoring positon. Lets keep the data simple and look at what type of punt results in a fair catch versus a returnable.  
+
+The intial review of the the play type results of punts plats shows that the majority of the results appears to be a return followed by a fair catch. Taking a look at if these change over time, we see that Returns are still the most outcome followed by a fiar catch.  However, intersting we see that both of these actually reduce from 2018 season to 2020 season.  
+
+Fist we can see that as a whole there a normal distribtion of the kick length with median being between 45 and 50 yards. Taking the review one step further and plotting the punt length over teh course of the seasons from 2018 to 2020, we see that there was consitancey over the course of the season.  THe meadian of all three season was just under 50 yards.  The distribution also seems similar when we look at this.  
+
+At first plotting the return yards we see that this is highly skewed to the right, with the majority of the returns falling between 0 and 5 yards.  Reviewing the Return yards over the course of the last three seasons there appears to be a consistancy through each season.  Although 2020 does display a slightly larger spread from 0 yard return to just under 10 yards the other season are with a yard or two of the spread.  
+
+Another way to look at the return yards is to determine the average return yards per returner.  So I reworked the number to figure out the total return yards and the total number of returns by a player.  Divdiing these numbers we can get the average yards per return.  
+
+I first looked at the average yards per return as a whole and looking at that distribution of the yard per return avergae it appears that this is slightly skwed to the right with most returners averaging around 2.5 yards per return.  
+
+In 2018 there are two seperate peaks one at 0 yards and the at around 5 yards.  Which is interesting display considering that the other years it shows a more normal distribution.    These two peaks could be that when a player choose to return a ball in 2018 they had a much higher chance or were more successful in getting 5 yards every carry.  While the other two seasons it would appear that this is not the case
+
+The two peaks in the punting for 2018, might also be that the top two results was Return or a Fair Catch.  And these were more then other seasons.  The Fair catch would push the average down around zero and then a return it would appear that the average is 5 yards.  There is some room in this area to further dive into the this data and see of what factors of a kick contribute to a a fair catch versus a good retrun. It would appear that for years 2019 and 2020 the punt does not have a two distinct peaks but actually follows a more normal distribution.  But this isn't the same case as with  
+
+Looking at the hang time is normally distrubuted 4.22 sec. The median hang time is between 4.02 and 4.22 sec.  The times appear to be distructuted nramlly with a slight skew to the left this seen by the long tail on the left but this is only a slight skew of the data.  This isn't that much of surprise of a distribution of punt Hang time.  
+
+
+We limited the punt results and we see that if we plot these two values over the course of the season we can see that they actually go down form season to season.  It is intersting to note that both Return and Fair Catches both go down.  This could be that punts in general went down between season.  It is also possible that if the number of punts remained the same but a other results increased. 
+
+
+There doesn't seem to be any strong coorelation between the length of a punt as a whole.  The data plotted for all three season results in a over plot scatter and really takes away from being able to see any cluster patter.  Lets look at this data from a season to season to see if that reduction of data pionts can help see of there is an clustering patterns.  
+
+Even with a reduction of data there doesn't appear to be any significant correlation between the kick length and kick return.  It does look like that if there is a kick that is less than 35 yards there are few if any returns.  While any of punt that is less than 35 yards appears to be mostly ends in a fair catch.  But since there is no actual correlation between that and the return we will need to turn towards the hang time and see if there is a better correlation between that and the return length.  As we can see there really isn't any significant differeces between the season, moving forward it doens't make sense to split and instead look at this data as a whole.  
+
+
+As seen earlier data points of this data set is pretty large, and results in overcrowding, a heatmap would make a better choice to see any patterns.  We can see that the majority of kicks had a hang time around the 4.5 sec, resulting in a kick length of 50 yards or so.  There isn't a clear correlation between hang time and kick length which I would think you see.  But since most of these kicks are clustered around a certain point it can really reduct the coorelation view.   We should take a look and see if there is a pattern with the hang time and kick length have an affect on the whether the punt will result in a fair catch or a return.  
+
+From these three graphs we can see that Normal punt type has the highest Hang Time and also the longest kick.  The hang time for the Aussie stye is only slightly less then the hang time of Normal.  Although the graph doesn show a difference in the hang time we can see that the difference is with a 0.5 seconds of each other.  In reality that 1/2 second wouldn't really be noticed by anyone palying or watching.   However, we can see that the Aussie style with a kick length of about 40 yards doesn't get the same kick length as a normal kick wich as a median value of just under 50 yards.  The Rugby style is by far the worse form of kicking with the Hang time being almost 1/2 sec less then Normal Style and even worse the average is about 15 yards shorter. I would recommend staying away from that style.  
+
+One important note is that the Aussie Style Type actaully results in more Fair Catches, while a normal kick results in significantly more Returns.  This is interesting because when we looked at the kick length and hang time they didn't really show a significant difference.  To really see what is going on we will need to see what affect the kick length and hang time together affect the play result.
+
+We can see that there does seem to be a two clusters based on the hang time and kick length.  It is hard to really see what is happending so lets switch from a scatter plot to a heat map to see where the center of the two clusters are.  Lets change this to a heat map.
+
+Splitting the data into the results of Return or Fair catch we can see that although the Hang time of the kicks for both Return and Fair Catches was about 4.5 sec the Fair catch could might be slightly.  The kick length shows a different story.  Although the hang time is similar we can see that the kick length changes, with a hang time of arounf 4.5 second and a about 50 yard to 55 yard, has a higher chance to be returned.  While a kick length of 40 to 45 yards has a higher chance of being downed as a fair catch.  If the goal would be to not have a return then the recommendation would be for punter to shoot for a high short kick.  This makes sense because this gives the gunners the best oppurtunity to get into position to force a Fair Catch call.  
+
+One concern would be you are giving the opposing team about 10 yards by kicking it short.  Is this going to give the opposing team better field position.  As we showed earlier that the average return is usually between 2.5 and 7.5 yards and 78% of all returns are under 10 yards which would be less than or equal to having the punter kick the punt short.   At this point the recommendation would be for the punter to have a hang time og apprx 4.5 sec and get the ball within the 50 - 55 yard range.  This sets the team up with the highest chance of success.  Which would be difined as the opposing team have field position furthest from the endzone.  
 
 ## Key Insights for Presentation
 
