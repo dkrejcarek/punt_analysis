@@ -160,5 +160,3 @@ One concern would be you are giving the opposing team about 10 yards by kicking 
 
 > Select one or two main threads from your exploration to polish up for your presentation. Note any changes in design from your exploration step here.
 
-1) Show that the average Retrun is under 10 yards
-
