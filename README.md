@@ -142,8 +142,6 @@ Another way to look at the return yards is to determine the average return yards
 
 Looking at the hang time is normally distrubuted with the median hang time is between 4.02 and 4.22 sec.  There does to be appear to have a slight skew to the left this seen by the long tail on the left but this is only a slight skew of the data.  This isn't that much of surprise of a distribution of punt Hang time.  
 
-
-
 There doesn't seem to be any strong coorelation between the length of a punt as a whole.  The data plotted for all three season results in a over plot scatter and really takes away from being able to see any cluster patter. With the over plotting of data I reduced the data plots to season by season.  Even with a reduction of data there doesn't appear to be any significant correlation between the kick length and kick return.  It does look like that if there is a kick that is less than 35 yards there are few if any returns.  While any of punt that is less than 35 yards appears to be mostly ends in a fair catch.  But since there is no actual correlation between that and the return we will need to turn towards the hang time and see if there is a better correlation between that and the return length.  As we can see there really isn't any significant differeces between the season, moving forward it doens't make sense to split and instead look at this data as a whole.  
 
 As seen earlier data points of this data set is pretty large, and results in overcrowding, a heatmap would make a better choice to see any patterns.  We can see that the majority of kicks had a hang time around the 4.5 sec, resulting in a kick length of 50 yards or so.  There isn't a clear correlation between hang time and kick length which I would think you see.  But since most of these kicks are clustered around a certain point it can really reduct the coorelation view.   We should take a look and see if there is a pattern with the hang time and kick length have an affect on the whether the punt will result in a fair catch or a return.  
@@ -161,3 +159,6 @@ One concern would be you are giving the opposing team about 10 yards by kicking 
 ## Key Insights for Presentation
 
 > Select one or two main threads from your exploration to polish up for your presentation. Note any changes in design from your exploration step here.
+
+1) Show that the average Retrun is under 10 yards
+
